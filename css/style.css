@@ -212,3 +212,156 @@ h2.cafe3::before {
   padding: 15px 0;
   margin: 20px auto 10px auto;
 }
+
+/*Locais*/
+
+.locais {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.locais-item img {
+  width: 460px;
+  float: left;
+  display: block;
+  margin: 0 10px;
+}
+
+.locais-item > div {
+  width: 460px;
+  float: left;
+  margin: 0 10px;
+}
+
+.locais-item {
+  clear: both;
+  margin: 60px auto;
+}
+
+.locais-item::after, .locais-item::before {
+  content: '';
+  clear: both;
+  display: table;
+}
+
+.locais-item h2 {
+  font-size: 2.25em;
+  margin-bottom: 20px;
+}
+
+.locais-item p {
+  font-size: 1.125em;
+  line-height: 1.4em;
+  max-width: 320px;
+  margin-bottom: 40px;
+}
+
+.locais-item a {
+  font-size: 1.125em;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 3px solid;
+  color: #252525;
+  padding: 10px 0;
+}
+
+/*Assine*/
+
+.assine {
+  background: #e7e4d8;
+  width: 100%;
+  padding: 30px 0;
+}
+
+.assine-container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.assine-container::after, .assine-container::before {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.assine-news {
+  width: 460px;
+  float: left;
+  margin: 0 10px;
+}
+
+.assine-news h2 {
+  font-size: 2.25em;
+}
+
+.assine-news p {
+  font-size: 1.5em;
+  font-style: italic;
+}
+
+.assine form {
+  width: 460px;
+  margin: 0 10px;
+  float: left;
+  margin: 10px 10px 0 10px;
+}
+
+.assine form label {
+  display: none;
+}
+
+.assine input {
+  width: 320px;
+  box-sizing: border-box;
+  padding: 10px;
+  border: 3px solid #252525;
+  background: none;
+  font-size: 1.5em;
+  font-style: italic;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  float: left;
+}
+
+.assine button {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  padding: 13px 0;
+  border: none;
+  width: 140px;
+  background: #252525;
+  color: white;
+  cursor: pointer;
+}
+
+/*Footer*/
+
+.footer {
+  background: #d6d3c8;
+  padding: 40px 0;
+}
+
+.footer-container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.footer p {
+  float: left;
+  margin: 0 10px;
+  font-size: 1.125em;
+  line-height: 1.4em;
+}
+
+.footer img {
+  float: right;
+  margin: 0 10px;
+  display: block;
+}
+
+.footer-container::after, .footer-container::before {
+  content: '';
+  display: table;
+  clear: both;
+}
